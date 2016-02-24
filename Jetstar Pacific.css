@@ -1,0 +1,163 @@
+#container{
+wight:960px;
+margin:auto;
+padding: 0 10px;
+}
+#container ul {
+margin:auto;
+
+list-style: none;
+Float :both;
+}
+#container ul li a{
+float:right;
+padding: 6 20px;
+font-size: 15px;
+font-weight: bold;
+text-align:right;
+text-decoration: none;
+color: #000000;
+}
+#container ul li a:hover, #menu li.current{
+color: #FF6600; 
+}
+#container{
+width: 960px;
+clear:both;
+height: 30px;
+background: url(image/dangky.jpg)
+}
+/*************#Header*************/
+#header{
+width: 960px;
+height: 215px;
+padding:0;
+margin:0;
+clear: both;
+background: url(image/Jetstar-banner.jpg) no-repeat;
+}
+/*********#Menu*********/
+#menu{
+
+width: 960px;
+clear: both;
+height: 50px;
+background: url(image/menu.jpg) no-repeat
+}
+#menu ul{
+margin:auto;
+padding: 16px 0 0 0;
+list-style: none;
+Float : both;
+}
+#menu ul li{
+
+display: inline;
+}
+#menu ul li a{
+float: left;
+padding: 0 43px;
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+color: #FFffff;
+}
+
+#menu ul li a:hover, #menu li.current{
+color: #FF6600;
+}
+/***********#Content**************/
+#content{
+width: 960px;
+clear: both;
+}
+#content-right{
+float: right;
+padding: 18px;
+}
+.content-right-section h3{
+font-size: 20px;
+color:fffff;
+border-bottom: 1px dotted #696969;
+padding: 0 100 25px 0;
+margin:0 0 10px 0;
+}
+#content-right{
+border:1px solid ;
+border-radius: 5px;
+margin-bottom:5px;
+}
+#content-right ul li a{
+color:#696969;
+float:left;
+}
+/************************/
+#content-2{
+color:#696969;
+float:left;
+}
+#content-2 ul li a{
+float: left;
+color:#696969;
+}
+#content-2 h3{
+font-size:20;
+color:black;
+}
+
+
+
+/***********#Content-left************/
+#Content-left{
+
+background: url(image/datve.jpg)
+}
+
+#content-left fieldset{
+width:615px;
+}
+
+#content-left input{
+width:30%
+}
+#content-left select{
+margin-top:25px
+}
+#content-left select{
+color:#696969;
+}
+#content-left fieldset{
+border:1px solid ;
+border-radius: 5px;
+}
+#content-left select{
+border:1px solid ;
+border-radius: 5px;
+}
+#content-left input{
+border-radius: 5px;
+}
+#content-left legend{
+background-color:FF6600;
+border:1px solid;
+padding: 1px 30px;
+border-radius: 5px;
+}
+/**************#Footer************/
+#footer{
+width: 960px;
+clear: both;
+padding: 20px 0 20px 0;
+text-align: center;
+border-top: #25211e;
+background-color: #FF6600;
+}
+#footer a{
+text-decoration: none;
+color:#ffffff;
+font-weight: normal;
+}
+#footer a:hover{
+color:black;
+}
